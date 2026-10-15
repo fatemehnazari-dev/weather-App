@@ -47,6 +47,22 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+.swal2-styled.swal-confirm {
+  background-color: #2563eb;
+}
+
+.swal2-styled.swal-confirm:hover {
+  background-color: #1d4ed8;
+}
+
+.swal2-styled.swal-cancel {
+  background-color: #64748b;
+}
+
+.swal2-styled.swal-cancel:hover {
+  background-color: #475569;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +86,7 @@ body {
 
 .col-md-3:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 .box-flx {
   display: flex;

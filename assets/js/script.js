@@ -16,6 +16,10 @@ async function test() {
     input: "text",
     showCancelButton: true,
     confirmButtonText: "Add",
+    customClass: {
+      confirmButton: "swal-confirm",
+      cancelButton: "swal-cancel",
+    },
     preConfirm: getWeatherApi,
   });
 
